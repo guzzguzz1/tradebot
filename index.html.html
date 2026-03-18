@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fantasy Baseball Trade Bot — SMS Consent</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: #f5f3ee;
+    color: #1a1a18;
+    min-height: 100vh;
+    padding: 48px 24px;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .badge {
+    display: inline-block;
+    background: #1D9E75;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px;
+    line-height: 1.15;
+    color: #1a1a18;
+    margin-bottom: 12px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    color: #5a5a56;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 520px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 20px;
+    border: 1px solid #e0ddd6;
+  }
+
+  .card h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #1a1a18;
+  }
+
+  .card p, .card li {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #3a3a36;
+  }
+
+  .card ul { padding-left: 20px; }
+  .card ul li { margin-bottom: 8px; }
+
+  .consent-box {
+    background: #e1f5ee;
+    border: 1.5px solid #1D9E75;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+  }
+
+  .consent-box p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #085041;
+  }
+
+  .how-it-works { display: flex; flex-direction: column; gap: 16px; }
+
+  .step { display: flex; gap: 16px; align-items: flex-start; }
+
+  .step-num {
+    flex-shrink: 0;
+    width: 32px; height: 32px;
+    background: #1a1a18;
+    color: #f5f3ee;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 500; margin-top: 2px;
+  }
+
+  .step-text strong { display: block; font-size: 15px; font-weight: 500; margin-bottom: 3px; color: #1a1a18; }
+  .step-text span { font-size: 14px; color: #5a5a56; line-height: 1.5; }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #ccc9c0;
+    font-size: 13px;
+    color: #888780;
+    line-height: 1.7;
+  }
+
+  footer a { color: #1D9E75; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <span class="badge">SMS Service</span>
+  <h1>Fantasy Baseball<br>Trade Bot</h1>
+  <p class="subtitle">Automated trade evaluation via SMS. Text in a trade proposal and get an instant analysis back.</p>
+
+  <div class="consent-box">
+    <p><strong>Consent notice:</strong> By texting this number, you agree to receive automated SMS responses evaluating your fantasy baseball trade proposals. This is a keyword opt-in service — you initiate every conversation. Message and data rates may apply. Reply <strong>STOP</strong> at any time to opt out. Reply <strong>HELP</strong> for assistance.</p>
+  </div>
+
+  <div class="card">
+    <h2>How it works</h2>
+    <div class="how-it-works">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <strong>You text first</strong>
+          <span>Send a trade proposal to the bot's number. You are always the one to initiate contact.</span>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <strong>Bot analyzes the trade</strong>
+          <span>The system evaluates the players involved and determines whether the trade is fair, favorable, or unfavorable.</span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <strong>You receive one reply</strong>
+          <span>A single automated SMS response is sent back with the evaluation. No follow-ups are sent unless you text again.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Message details</h2>
+    <ul>
+      <li><strong>Who can use this:</strong> Members of a private fantasy baseball league only.</li>
+      <li><strong>Message frequency:</strong> One reply per message you send. We do not send unsolicited messages.</li>
+      <li><strong>Cost:</strong> Message and data rates may apply based on your mobile carrier plan.</li>
+      <li><strong>To opt out:</strong> Reply <strong>STOP</strong> to any message. You will receive a confirmation and no further messages will be sent.</li>
+      <li><strong>For help:</strong> Reply <strong>HELP</strong> or contact us at the email below.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>Your phone number and message content are used solely to generate trade evaluations. We do not sell, share, or distribute your personal information to third parties. Message content is not stored beyond what is necessary to process your request.</p>
+  </div>
+
+  <footer>
+    <p>Operated by <strong>[Your Name]</strong> &nbsp;·&nbsp; Contact: <a href="mailto:tsguzzi@gmail.com">tsguzzi@gmail.com</a></p>
+    <p style="margin-top: 6px;">This service is for private league use only and is not affiliated with Fantrax or any other platform.</p>
+    <p style="margin-top: 6px;">Last updated: March 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>
