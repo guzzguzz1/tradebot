@@ -34,7 +34,6 @@
     border-radius: 20px;
     margin-bottom: 20px;
   }
-</style>
 
   h1 {
     font-family: 'DM Serif Display', serif;
@@ -73,8 +72,13 @@
     color: #3a3a36;
   }
 
-  .card ul { padding-left: 20px; }
-  .card ul li { margin-bottom: 8px; }
+  .card ul {
+    padding-left: 20px;
+  }
+
+  .card ul li {
+    margin-bottom: 8px;
+  }
 
   .consent-box {
     background: #e1f5ee;
@@ -90,22 +94,52 @@
     color: #085041;
   }
 
-  .how-it-works { display: flex; flex-direction: column; gap: 16px; }
+  .how-it-works {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 
-  .step { display: flex; gap: 16px; align-items: flex-start; }
+  .step {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
 
   .step-num {
     flex-shrink: 0;
-    width: 32px; height: 32px;
+    width: 32px;
+    height: 32px;
     background: #1a1a18;
     color: #f5f3ee;
     border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 13px; font-weight: 500; margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
   }
 
-  .step-text strong { display: block; font-size: 15px; font-weight: 500; margin-bottom: 3px; color: #1a1a18; }
-  .step-text span { font-size: 14px; color: #5a5a56; line-height: 1.5; }
+  .step-text strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #1a1a18;
+  }
+
+  .step-text span {
+    font-size: 14px;
+    color: #5a5a56;
+    line-height: 1.5;
+  }
+
+  .divider {
+    height: 1px;
+    background: #e0ddd6;
+    margin: 8px 0;
+  }
 
   footer {
     margin-top: 48px;
@@ -116,7 +150,10 @@
     line-height: 1.7;
   }
 
-  footer a { color: #1D9E75; text-decoration: none; }
+  footer a {
+    color: #1D9E75;
+    text-decoration: none;
+  }
 </style>
 </head>
 <body>
@@ -140,7 +177,6 @@
           <span>Send a trade proposal to the bot's number. You are always the one to initiate contact.</span>
         </div>
       </div>
-
       <div class="step">
         <div class="step-num">2</div>
         <div class="step-text">
